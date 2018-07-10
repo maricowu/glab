@@ -1,0 +1,446 @@
+
+<!-- saved from url=(0060)https://mp.weixin.qq.com/debug/wxadoc/design/?t=2017118#???? -->
+<html lang=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Gaodun UI Intro</title>
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="./css/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="./css/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="./css/search.css">
+                
+            
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="#">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="next" href="#">
+    <link rel="shortcut icon" href="img/glab.ico" type="image/*">
+    
+
+    </head>
+    <body oncontextmenu=self.event.returnValue=false>
+        
+<div class="book with-summary with-header">
+   <div class="head">
+        <div class="head_box"> 
+            <h1 class="logo"><a href="http://glab.ren/"><img src="./img/glab-01.png" width="30px" height="30px"></a></h1>
+            <div class="header_ctrls">
+                <ul class="top_nav">
+                    <li class="top_nav_item" id="js_selected_brand">
+                        <a href="http://glab.ren/brandep.html">Brand</a>
+                    </li>
+                    <li class="top_nav_item" id="js_selected_webui">
+                        <a href="http://glab.ren/webui.html">WebUI</a>
+                    </li>
+                    <li class="top_nav_item selected" id="js_selected_mobui">
+                        <a href="http://glab.ren/mobileui.html">Mobile UI</a>
+                    </li>
+                    <li class="top_nav_item" id="js_selected_appui">
+                        <a href="http://glab.ren/cpa.html">App UI</a>
+                    </li>
+                    <!--li class="top_nav_item" id="js_selected_product">
+                        <a href="https://mp.weixin.qq.com/debug/wxadoc/product/index.html?t=2017118">运营</a>
+                    </li>
+                    <li class="top_nav_item" id="js_selected_analysis">
+                        <a href="https://mp.weixin.qq.com/debug/wxadoc/analysis/index.html?t=2017118">数据</a>
+                    </li-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sub_nav_box">
+        <div class="sub_nav_inner">
+            <div class="book-summary-opr" id="js-book-summary-opr">
+                <a class="book-summary-btn"></a>
+            </div>
+            
+
+
+
+<div class="top_sub_nav">
+    <div class="top_title_wap">
+        <span class="icon_title icon_design"></span>
+        <p class="s_title_1">Gaodun MobileUI Intro</p>
+    </div>
+    
+    <ul class="top_sub_list">
+        
+        
+    
+        <li class="sub_nav_item selected" data-level="1.1" data-path="./">
+            
+                <a href="#概要">
+                    
+                    Gaodun MobileUI Intro
+            
+                </a>
+            
+        </li>
+
+    
+    </ul>
+</div>
+     
+
+
+
+            <!-- <h1>gaodun设计指南</h1> -->
+            <div id="book-search-input" role="search">
+                <form>
+                    <label for="search-input" class="search-icon" id="js-search-icon"></label>
+                    <input type="text" id="search-input" name="search-input" placeholder="搜索">
+                    <button type="reset" class="clear-input-btn"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="book-summary">
+        <div class="book-summary-home" id="js-summary-home">
+            <a><span class="icon_home_s icon_design"></span><span class="s_title_2">Mobile UI</span></a>
+        </div>
+    <nav role="navigation">
+<ul class="summary">
+        <li class="chapter  open" data-level="1.1.1" data-path="./" name="用户体验">
+        <a href="#用户体验">用户体验</a>
+        <ul class="articles">
+        <li class="chapter open" data-level="1.1.1.1" data-path="./" name="信息交流">
+        <a href="#信息交流">信息交流</a>
+        </li>
+        <li class="chapter open" data-level="1.1.1.2" data-path="./" data-name="建立感知">
+        <a href="#建立感知">建立感知</a>
+        </li>
+        <li class="chapter open" data-level="1.1.1.1" data-path="./" name="深入了解">
+        <a href="#深入了解">深入了解</a>
+        </li>
+        <li class="chapter open" data-level="1.1.1.1" data-path="./" name="生产影响">
+        <a href="#生产影响">生产影响</a>
+        </li>
+        </ul>
+        </li>
+
+        <li class="chapter open" data-level="1.1.4" data-path="./" data-name="统一稳定">
+        <a href="#碎片化决策">碎片化决策</a>
+        </li>
+
+
+        <li class="chapter  open" data-level="1.1.5" data-path="./" data-name="视觉规范">
+        <a href="#视觉规范">视觉规范</a>
+        <ul class="articles">
+        <li class="chapter open" data-level="1.1.5.1" data-path="./" data-name="字体使用原则">
+        <a href="#字体使用原则">字体使用原则</a>
+        </li>
+        <li class="chapter open" data-level="1.1.5.2" data-path="./" data-name="颜色使用原则">
+        <a href="#颜色使用原则">颜色使用原则</a>
+        </li>
+        <li class="chapter open" data-level="1.1.5.3" data-path="./" data-name="组件使用原则">
+        <a href="#组件使用原则">组件使用原则</a>
+        </li>
+        <li class="chapter open" data-level="1.1.5.5" data-path="./" data-name="图标使用原则">
+        <a href="#图标使用原则">图标使用原则</a>
+        </li>
+        </ul>
+        </li>
+        <li class="chapter open" data-level="1.1.6" data-path="./" data-name="资源下载">
+        <a href="#资源下载">资源下载</a>
+        </li>
+        </ul></nav>
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+
+<div class="page-wrapper" tabindex="-1" role="main">
+<div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+<section class="normal markdown-section">
+<h1 id="概要">概要</h1>
+<p>基于随时随地学习的理念，M站孕育而生，我们希望协助高顿学员完成学习效率最大化，学习效果最优化。
+<br>Mobile UI指南目前建立在高顿网校整体VI视觉的基础上进行设计。
+<br>旨在与高顿网站，APP之间，建立友好、高效、一致的用户体验，满足我们的学员优质的体验。
+<br>本指南视觉规范基于iPhone6的分辨率进行设计。</p>
+
+
+<h2 id="用户体验">用户体验</h2>
+<p>为了能让用户在使用时，尽可能避免多种场景下的复杂体验，选己所选，求己所需，M站尽可能减少干扰，采用极简的元素，帮助用户达成诸如优选课程，快速浏览资讯动态等。</p>
+<p><img src="img/mob_img/chapter01.jpg" alt=""></p>
+
+
+<h3 id="信息交流">信息交流</h3>
+<p>考试日期几号？我应该怎么选课？什么时候报名考试？考试费用是多少？这门课程老师怎么样？有什么办法学习可以快点？价格能不能便宜一点？</p>
+
+
+<h3 id="建立感知">建立感知</h3>
+<p>在碎片化的时间内，与用户建立感知，帮助用户快速做出决策，诸如手机来访用户，可以在这里找到这门课热门不热门，价格如何，老师教的好不好，课程资讯相关的答案与决策建议。</p>
+<p><img src="img/mob_img/01_choice.jpg" alt=""></p>
+
+<h3 id="深入了解">深入了解</h3>
+<p>通过信息交流与感知建立，我们深入了解挖掘更多需求的可能性，用户感兴趣什么样的课程内容，用户关心哪种方式的考试动态，用户喜欢什么样的相关资讯等。</p>
+
+<h3 id="生产影响">生产影响</h3>
+<p>如何理解生产影响？与产生影响不同的是，我们主动生产影响。在碎片化的时间间隙，我们提供做出决策的嵌入式服务，我们越来越深入了解，我们生产用户所需的信息。</p>
+
+<!--h4 id="反例示意">反例示意</h4>
+<p>用户本打算进行搜索，在进入页面时却被突如其来的模态抽奖框所打断；对于抽奖没有兴趣的用户是非常不友好的干扰； 而即便有部分用户确实被“诱人”的抽奖活动所吸引，离开主流程去抽奖之后可能就遗忘了原本的目标，进而失去了对产品真正价值的利用和认识。</p>
+<p><img src="img/mob_img/2flow.dont.png" alt=""></p-->
+
+
+
+
+<!--h2 id="清晰明确">清晰明确</h2>
+<p>一旦用户进入我们的小程序页面，我们就有责任和义务清晰明确地告知用户身在何处、又可以往何处去，确保用户在页面中游刃有余地穿梭而不迷路，这样才能为用户提供安全且愉悦的使用体验。</p>
+<h3 id="导航明确，来去自如">导航明确，来去自如</h3>
+<p>导航是确保用户在网页中浏览跳转时不迷路的最关键因素。导航需要告诉用户，当前在哪，可以去哪，如何回去等问题。首先在微信系统内的所有小程序的全部页面，均会自带有微信提供的导航栏，统一解决当前在哪，如何回去的问题。在微信层级导航保持体验一致，有助于用户在微信内形成统一的体验和交互认知，无需在各小程序和其他微信页面的切换中新增学习成本或改变使用习惯。</p>
+<h4 id="微信导航栏">微信导航栏</h4>
+<p>微信导航栏，直接继承于客户端，除导航栏颜色之外，开发者无需亦不可对其中的内容进行自定义。但开发者需要规定小程序各个页面的跳转关系，让导航系统能够以合理的方式工作。</p>
+<p>微信导航栏分为导航区域、标题区域以及操作区域。其中导航区控制程序页面进程。目前导航栏分深浅两种基本配色。</p>
+<h4 id="导航区（ios）">导航区（iOS）</h4>
+<p>微信进入小程序的第一个页面，导航区通常只有一个操作——“返回”，即返回进入小程序前的微信页面。
+进入小程序后的次级页面，导航区的操作为——“返回” 和“关闭”。
+“返回”，即返回上一级小程序界面或微信界面。“关闭”，即在当前界面直接退出小程序，回到进入小程序前的微信页面。</p>
+<p><img src="img/mob_img/3navigation.iOS.png" alt=""></p>
+<h4 id="导航区（android）">导航区（Android）</h4>
+<p>导航区仅存在唯一操作——直接退出小程序，回到进入小程序前的微信或系统桌面，安卓手机自带的硬件返回键执行返回上一级页面的操作。</p>
+<p><img src="img/mob_img/3navigation.android.png" alt=""></p>
+<p>安卓导航存在一类特殊情况：当用户通过操作区的菜单将小程序添加至安卓桌面，并从安卓桌面打开小程序时，小程序的首页，不展示导航按钮。仅展示小程序标题和操作区。小程序次级页面，导航区只有返回上一级页面的操作，而点击安卓手机自带的硬件返回键也起到相同作用。</p>
+<p><img src="img/mob_img/3navigation.android.special.png" alt=""></p>
+<h4 id="微信导航栏自定义颜色规则（ios和android）">微信导航栏自定义颜色规则（iOS和Android）</h4>
+<p>小程序导航栏支持基本的背景颜色自定义功能，选择的颜色需要在满足可用性前提下，和谐搭配微信提供的两套主导航栏图标。建议参考以下选色效果：</p>
+<p>选色方案示例</p>
+<p><img src="img/mob_img/3navigation.color.png" alt=""></p>
+<h4 id="页面内导航">页面内导航</h4>
+<p>开发者可根据自身功能设计需要在页面内添加自有导航。并保持不同页面间导航一致。但是受限于手机屏幕尺寸的限制，小程序页面的导航应尽量简单，若仅为一般线性浏览的页面建议仅使用微信导航栏即可。</p>
+<p>开发者可选择小程序页面添加标签分页（Tab）导航。标签分页栏可固定在页面顶部或者底部，便于用户在不同的分页间做切换。标签数量不得少于2个，最多不得超过5个，为确保点击区域，建议标签数量不超过4项。一个页面也不应出现一组以上的标签分页栏。</p>
+<p>其中小程序首页可选择微信提供的原生底部标签分页样式，该样式仅供小程序首页使用。开发时可自定义图标样式、标签文案以及文案颜色等，具体设置项如图标尺寸等参考可参考开发文档和WeUI基础控件库。</p>
+<p><img src="img/mob_img/3navigation.page.bottom.png" alt=""></p>
+<p>顶部标签分页栏颜色可自定义。在自定义颜色选择中，务必注意保持分页栏标签的可用性、可视性和可操作性。</p>
+<p><img src="img/mob_img/3navigation.page.top.png" alt=""></p>
+<p><img src="img/mob_img/3navigation.page.top.dont.png" alt=""></p>
+<h3 id="减少等待，反馈及时">减少等待，反馈及时</h3>
+<p>页面的过长时间的等待会引起用户的不良情绪，使用微信小程序项目提供的技术已能很大程度缩短等待时间。即便如此，当不可避免的出现了加载和等待的时候，需要予以及时的反馈以舒缓用户等待的不良情绪。</p>
+<h4 id="启动页加载">启动页加载</h4>
+<p>小程序启动页是小程序在微信内一定程度上展现品牌特征的页面之一。本页面将突出展示小程序品牌特征和加载状态。启动页除品牌标志（Logo）展示外，页面上的其他所有元素如加载进度指示，均由微信统一提供且不能更改，无需开发者开发。</p>
+<p><img src="img/mob_img/4miniapploading.jpg" alt=""></p>
+<h4 id="页面下拉刷新加载">页面下拉刷新加载</h4>
+<p>在微信小程序内，微信提供标准的页面下拉刷新加载能力和样式，开发者无需自行开发。</p>
+<p><img src="img/mob_img/4pull-to-refresh.png" alt=""></p>
+<h4 id="页面内加载反馈">页面内加载反馈</h4>
+<p>开发者可在小程序里自定义页面内容的加载样式。建议不管是使用在局部还是全局加载，自定义加载样式都应该尽可能简洁，并使用简单动画告知用户加载过程。 开发者也可以使用微信提供的，统一的页面加载样式，如图中例所示。</p>
+<p><img src="img/mob_img/4loading.page.feedback.png" alt=""></p>
+<h4 id="模态加载">模态加载</h4>
+<p>模态的加载样式将覆盖整个页面的，由于无法明确告知具体加载的位置或内容将可能引起用户的焦虑感，因此应谨慎使用。除了在某些全局性操作下不要使用模态的加载。</p>
+<p><img src="img/mob_img/4loading.png" alt=""></p>
+<h4 id="局部加载反馈">局部加载反馈</h4>
+<p>局部加载反馈即只在触发加载的页面局部进行反馈，这样的反馈机制更加有针对性，页面跳动小，是微信推荐的反馈方式。例如： </p>
+<p><img src="img/mob_img/4loading.feedback.png" alt=""></p>
+<h4 id="加载反馈注意事项">加载反馈注意事项</h4>
+<ul>
+<li>若载入时间较长,应提供取消操作,并使用进度条显示载入的进度。</li>
+<li>载入过程中,应保持动画效果 ; 无动画效果的加载很容易让人产生该界面已经卡死的错觉。</li>
+<li>不要在同一个页面同时使用超过1个加载动画。</li>
+</ul>
+<h4 id="结果反馈">结果反馈</h4>
+<p>除了在用户等待的过程中需予以及时反馈外，对操作的结果也需要予以明确反馈。根据实际情况，可选择不同的结果反馈样式。对于页面局部的操作，可在操作区域予以直接反馈，对于页面级操作结果，可使用弹出式提示（Toast）、模态对话框或结果页面展示。</p>
+<h4 id="页面局部操作结果反馈">页面局部操作结果反馈</h4>
+<p>对于页面局部的操作，可在操作区域予以直接反馈，例如点击多选控件前后如下图。对于常用控件，微信设计中心将提供控件库，其中的控件都已提供完整操作反馈。</p>
+<p><img src="img/mob_img/5local.feedback.png" alt=""></p>
+<h4 id="页面全局操作结果——弹出式提示（toast）">页面全局操作结果——弹出式提示（Toast）</h4>
+<p>弹出式提示（Toast）适用于轻量级的成功提示，1.5秒后自动消失，并不打断流程，对用户影响较小，适用于不需要强调的操作提醒，例如成功提示。特别注意该形式不适用于错误提示，因为错误提示需明确告知用户，因而不适合使用一闪而过的弹出式提示。</p>
+<p><img src="img/mob_img/5global.toast.png" alt=""></p>
+<h4 id="页面全局操作结果——模态对话框">页面全局操作结果——模态对话框</h4>
+<p>对于需要用户明确知晓的操作结果状态可通过模态对话框来提示，并可附带下一步操作指引。</p>
+<p><img src="img/mob_img/5global.popup.png" alt=""></p>
+<h4 id="页面全局操作结果—结果页">页面全局操作结果—结果页</h4>
+<p>对于操作结果已经是当前流程的终结的情况，可使用操作结果页来反馈。这种方式最为强烈和明确的告知用户操作已经完成，并可根据实际情况给出下一步操作的指引。</p>
+<p><img src="img/mob_img/5global.result.png" alt=""></p>
+<h3 id="异常可控，有路可退">异常可控，有路可退</h3>
+<p>在设计任何的任务和流程时，异常状态和流程往往容易被忽略，而这些异常场景往往是用户最为沮丧和需要帮助的时候，因此需要格外注意异常状态的设计，在出现异常时予以用户必要的状态提示，并告知解决方案，使其有路可退。</p>
+<p>要杜绝异常状态下，用户莫名其妙又无处可去，停滞在某一个页面的情况。上文中所提到的模态对话框和结果页面都可作为异常状态的提醒方式。除此之外，在表单页面中尤其是表单项较多的页面中，还应明确指出出错项目，以便用户修改。</p>
+<h4 id="异常状态——表单出错">异常状态——表单出错</h4>
+<p>表单报错，在表单顶部告知错误原因，并标识出错误字段提示用户修改。</p>
+<p><img src="img/mob_img/6error.png" alt=""></p>
+<h2 id="便捷优雅">便捷优雅</h2>
+<p>从PC时代的物理键盘鼠标到移动端时代手指，虽然输入设备极大精简，但是手指操作的准确性却大大不如键盘鼠标精确。为了适应这个变化，需要开发者在设计过程中充分利用手机特性，让用户便捷优雅的操控界面。</p>
+<h3 id="减少输入">减少输入</h3>
+<p>由于手机键盘区域小且密集，输入困难的同时还易引起输入错误，因此在设计小程序页面时因尽量减少用户输入，利用现有接口或其他一些易于操作的选择控件来改善用户输入的体验。</p>
+<p>例如下图中，在添加银行卡时，采用摄像头识别接口来帮助用户输入。除此之外微信团队还对外开放例如地理位置接口等多种微信小程序接口 ，充分利用这些接口将大大提高用户输入的效率和准确性，进而优化体验。</p>
+<p><img src="img/mob_img/7less-input.png" alt=""></p>
+<p>除了利用接口外，在不得不让用户进行手动输入时，应尽量让用户做选择而不是键盘输入。一方面，回忆易于记忆，让用户在有限的选项中做选择通常来说是容易于完全靠记忆输入；另一方面，仍然是考虑到手机键盘密集的单键输入极易造成输入错误。 例如图中，在用户搜索时提供搜索历史快捷选项将帮助用户快速进行搜索，而减少或避免不必要是键盘输入。</p>
+<p><img src="img/mob_img/7less-input2.png" alt=""></p>
+<h3 id="避免误操作">避免误操作</h3>
+<p>因为在手机上我们通过手指触摸屏幕来操控界面，手指的点击精确度远不如鼠标，因此在设计页面上需点击的控件时，需要充分考虑到其热区面积，避免由于可点击区域过小或过于密集而造成误操作。当简单的将原本在电脑屏幕上使用的界面不做任何适配直接移植到手机上时，往往就容易出现这样的问题。由于手机屏幕分辨率各不相同，因此最适宜点击像素尺寸也不完全一致，但换算成物理尺寸后大致是在7mm-9mm之间。在微信提供的标准组件库中，各种控件元素均已考虑到了页面点击效果以及不同屏幕的适配，因此再次推荐使用或模仿标准控件尺寸进行设计。</p>
+<h3 id="利用接口提升性能">利用接口提升性能</h3>
+<p>微信设计中心已推出了一套网页标准控件库，包括 <a href="#" target="_blank">sketch设计控件库</a> 和 <a href="#" target="_blank">Photoshop设计控件库</a>，后续还将完善小程序组件，这些控件都已充分考虑了移动端页面的特点，能够保证其在移动端页面上的可用性和操作性能；
+同时微信开发团队也在不断完善和扩充微信小程序接口，并提供微信公共库，利用这些资源不但能够为用户提供更加快捷的服务，而且对页面性能的提高有极大作用，无形之中提升了用户体验。</p-->
+
+
+
+<h2 id="碎片化决策">碎片化决策</h2>
+<p>帮助用户在短时间内做出有效决策，是M站的目的；能不能1分钟选好课? 能不能1分钟购完课? 能不能1分钟获取想要的资讯? 决策的时间缩短也预示着用户的选择是专注于明确。</p>
+
+
+<h2 id="视觉规范">视觉规范</h2>
+<h3 id="字体使用原则">字体使用原则</h3>
+<p>M站内字体的使用与所运行的系统字体保持一致，常用字号为20，22，24，28，30，32，36(px)，使用场景具体如下： </p>
+<p><img src="img/mob_img/03_standard_01.jpg" alt=""></p>
+<h3 id="颜色使用原则">颜色使用原则</h3>
+<p><img src="img/mob_img/03_standard_02.jpg" alt=""></p>
+<h3 id="组件使用原则">组件使用原则</h3>
+<p><img src="img/mob_img/03_standard_03.jpg" alt=""></p>
+<h3 id="图标使用原则">图标使用原则</h3>
+<p><img src="img/mob_img/03_standard_04.jpg" alt=""></p>
+
+
+
+<h2 id="资源下载">资源下载</h2>
+<p>为方便各条产品的设计统一性，我们提供基础的下载。</p>
+
+
+<!--ul class="weui_res_download_list" id="weui_res_download_list">
+<li class="res_download_item">
+    <div class="item_inner">
+        <a class="item_link_block" href="#" target="_blank">
+            <i class="res_download_icon icon_sketch"></i>
+            <p class="res_download_title">Sketch组件库</p>
+            </a><a class="res_download_opr" href="#" target="_blank">下载</a>
+        
+    </div>
+</li>
+<li class="res_download_item">
+    <div class="item_inner">
+        <a class="item_link_block" href="#" target="_blank">
+            <i class="res_download_icon icon_ps"></i>
+            <p class="res_download_title">Mobile UI_PS组件库</p>
+            </a><a class="res_download_opr" href="#" target="_blank">下载</a>
+        
+    </div>
+</li>
+<li class="res_download_item">
+    <div class="item_inner">
+        <a class="item_link_block" href="#" target="_blank">
+            <i class="res_download_icon icon_logo"></i>
+            <p class="res_download_title">M站标志</p>
+            </a><a class="res_download_opr" href="#" target="_blank">下载</a>
+    </div>
+</li>
+</ul-->
+
+<p>资源下载，敬请期待：</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class="search-results-count"></span> 个结果 "<span class="search-query"></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">没有找到相关内容 "<span class="search-query"></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="foot" id="footer">
+                        <ul class="links ft">
+                            <li class="links_item"><a href="#">关于Glab</a></li>
+                            <li class="links_item"><a href="http://iconfont.cn/plus/manage/index?manage_type=myprojects&spm=a313x.7781069.1998910419.10.UY5DGR&projectId=268608&keyword=" target="_blank">Glab 图标库登录</a></li>
+                            <li class="links_item"><a href="mailto:marico.wu@gaodun.com">联系邮箱</a></li>
+                            <li class="links_item">
+                                <p class="copyright" style="font-style: italic;"><strong>Designed By Glab</strong>&nbsp;&nbsp;&nbsp;<span style="font-size: 10px">沪ICP备16010355号-2</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <!--a href="#" class="navigation navigation-next navigation-unique" aria-label="Next page: 友好礼貌" style="margin-right: 15px;">
+                    <i class="fa fa-angle-right"></i>
+                </a-->
+                
+            
+        
+    </div>
+<script>
+// var dom = document.getElementById('js_selected_mobui')
+//                   if (dom) {
+//                     dom.classList.add('selected')
+//                   }
+                  </script></div>
+
+        
+    <script src="./js/gitbook.js"></script>
+    <script src="./js/theme.js"></script>
+    
+        
+        <script src="./js/search-engine.js"></script>
+        
+    
+        
+        <script src="./js/search.js"></script>
+        
+    
+        
+        <script src="./js/lunr.min.js"></script>
+        
+    
+        
+        <script src="./js/search-lunr.js"></script>
+        
+    
+     <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"search":{"keywords":["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","概要","基于","微","信","小","程序","轻快的","特点","我们","拟定","了","界面","设计","指南","和","建议","建立","在","充分","尊重","用户","知情权","与","操作","权","的","基础","之上","旨在","生态","体系","内","友好","高效","一致","体验","同时","最大","程度","适应","支持","不同","需求","实现","服务","方","共","赢","礼貌","为了","避免","中","使用","时","注意力","被","周围","复杂","环境","干扰","设","计时","应该","注意","减少","无关","元素","对","目标","地","向","展示","提供","友好地","引导","进行","重点","突出","每个","页面","都","应有","明确的","以","便于","每","进入","一个","新","时候","能","快速","地理","解","内容","确定","前提","下","应","尽量","上","出现","其它","决策","因素","反例","示意","此","主题","是","查询","却","添加","诸多","不相关","业务","入口","易造成","迷失","image","纠正","去掉","任何","不","相关","明确","技术","控件","允许","有助于","帮助","比如","最","近","搜索词","等","没有","主次","让","无从","选择","首先","要","并列","过多","不得不","多","个","需","区分","减轻","难度","流程","顺畅地","某一个","之外","而","打断","本","打算","搜索","突如其来","模态","抽奖","框","所","对于","没","有兴趣","非常","不友好","即便","有","部分","确实","诱人","活动","吸引","离开","主流","程去","之后","可能","就","遗忘","原本","进而","失去","产品","真正","价值","利用","认识","清晰","一旦","责任","义务","明确地","告知","身","何处","又","可","以往","去","确保","游刃有余","穿梭","迷路","这样才能","为","安全","且","愉悦的","导航","来去","自如","网页","浏览","跳转","关键因素","需要","告诉","当前","哪","可以","如何","回去","问题","首","先在","系统","所有","全部","均","会","自","带有","栏","统一","解决","层级","保持","形成","交互","认知","无需","各","其他","切换","新增","学习","成本","或","改变","习惯","直接","继承","于","客户端","除","颜色","开发者","亦","不可","其中","自定义","但","规定","各个","关系","导航系统","能够","合理的","方式","工作","分为","区域","标题","以及","区","控制程序","进程","目前","分","深浅","两种","基本","配色","iOS","第","通常","只有","返回","即","前","后","次级","关闭","一级","退出","回到","Android","仅","存在","唯一","桌面","安","卓手机","带","硬件","键","执行","卓导航","一类","特殊","情况","当","通过","菜单","将","至","卓桌面","并","从","打开","首页","按钮","点击","也","起到","相同","作用","规则","基本的","背景","定义","功能","满足","可用性","和谐","搭配","两套","主导","航栏","图标","参考","以下","选色","效果","方案","示例","根据","自身","功能设计","自有","间","但是","受限","手机屏幕","尺寸","限制","简单","若","一般","线性","即可","可选择","标签","分页","Tab","固定","顶部","或者","底部","不同的","做","数量","不得","少于","2个","最多","超过","5个","不超过","项","也不","一组","以上","其","中小","原生","样式","该","供","开发","文案","具体","设置","如","文档","WeUI","库","务必","可视性","可操作性","等待","反馈","及时","过","长时间","引起","不良情绪","项目","已","很大","缩短","等待时间","如此","不可避免","加载","予以","及时的","舒缓","不良","情绪","启动","页","一定程度","展现","品牌","特征","之一","状态","标志","Logo","外","进度","指示","由","不能","更改","下拉","刷新","标准","能力","自行","里","不管","局部","还是","全局","尽可能","简洁","动画","过程","图","例","示","覆盖","整个","由于","无法","位置","焦虑","感","因此","谨慎","除了","某些","全局性","不要","只","触发","这样","机制","更加","针对性","跳动","推荐","例如","事项","载入","时间","较","长","取消","条","显示","无","很容易","人","产生","已经","卡","死","错觉","同一个","1个","结果","实际情况","级","弹出式","提示","Toast","对话框","多选","前后","下图","常用","中心","完整","适用于","轻量级","成功","1.5秒","自动","消失","并不","影响","较小","不需要","强调","提醒","特别","形式","不适","用于","错误","因为","因而","合","一闪而过","知晓","来","附带","下一步","指引","终结","这种","最为","强烈","完成","给出","异常","可控","路","退","任务","往往","容易","忽略","这些","场景","沮丧","格外","必要的","解决方案","使","杜绝","莫名其妙","无处","停滞","上文","提到","作为","除此之外","表单","尤其是","还","指出","出错","以便","修改","报","错","原因","标识","出","字段","便捷","优雅","PC","时代","物理","键盘","鼠标","到","移动","端","手指","虽然","输入","设备","极大","精简","准确性","大大","不如","精确","这个","变化","充分利用","手机","特性","优雅的","操控","密集","困难的","易引起","因","现有","接口","一些","易于","改善","银行卡","采用","摄像","头","识别","团队","对外开放","地理位置","多种","提高","效率","优化","不让","手动","而不是","键盘输入","一方面","回忆","记忆","有限","选项","说是","完全","靠","另一方面","仍然","考虑到","密集的","单键","极易","造成","历史","快捷","不必要","误","触摸","屏幕","精确度","远不如","热","面积","过于","简单的","电脑屏幕","不做","适配","移植","屏幕分辨率","适宜","像素","完全一致","换算","成","大致","mm","之间","组件","各种","考虑","到了","再次","模仿","提升","性能","推出","一套","包括","sketch","Photoshop","后续","完善","保证","不断完善","扩充","并提","公共","资源","不但","快捷的","而且","无形","之中","稳定","种种","原则","接入","时刻","统一性","延续性","用","最少","达成","正","达到","稳定的","目的","视觉","规范","字体","运行","保持一致","字号","pt","如下","主","Black","黑色","次要","Grey","灰色","戳","缺省","值","Light","大","段","说明","属于","主要内容","Semi","黑","蓝色","链接","用色","绿色","字样","色","红色","Press","Disable","分别","降低","透明度","20%","10%","列表","下载","方便","设计师","Web","调用","ul","class","weui","res","download","list","id","li","item","div","inner","a","link","block","href","https://wximg.gtimg.com/shake_tv/mina/WEUI_1_0_161226_Sketch.zip","i","icon","p","title","opr","https://wximg.gtimg.com/shake_tv/mina/WeUI1.0.psd.zip","ps","PS","https://wximg.gtimg.com/shake_tv/mina/standard_logo.zip","target","blank","logo","预览","地址","https://weui.io][3]","emphasis","dont","png","do","flow","navigation","android","special","color","page","bottom","top","miniapploading","jpg","pull","to","refresh","loading","feedback","local","global","toast","popup","result","error","less","input","Font","List","Input","button"]},"title":"微信小程序设计指南","level":"1.1","depth":1,"next":{"title":"友好礼貌","level":"1.1.1","depth":2,"anchor":"#友好礼貌","path":"README.md","ref":"README.md#友好礼貌","articles":[{"title":"重点突出","level":"1.1.1.1","depth":3,"anchor":"#重点突出","path":"README.md","ref":"README.md#重点突出","articles":[]},{"title":"流程明确","level":"1.1.1.2","depth":3,"anchor":"#流程明确","path":"README.md","ref":"README.md#流程明确","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"file":{"path":"README.md","mtime":"2017-01-18T03:38:54.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-01-18T03:38:52.381Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+
+    <!--powered by userback -->
+   <script>
+    Userback = window.Userback || {};
+    Userback.access_token = '966|1098|s7bFVAZ7TJzbvngQ2xwBgYFQSwsqlzTOH4tCFtJycjKIG0yJx5';
+
+    (function(id) {
+        if (document.getElementById(id)) {return;}
+        var s = document.createElement('script');
+        s.id = id;
+        s.src = 'https://static.userback.io/widget/v1.js';
+        var parent_node = document.head || document.body;
+        parent_node.appendChild(s);
+    })('userback-sdk');
+</script>
+
+    
+
+
+</body></html>
